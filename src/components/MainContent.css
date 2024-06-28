@@ -1,0 +1,47 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Adjusted height for main content */
+  overflow: hidden;
+}
+
+.video-container {
+  position: relative;
+  width: 100vw;
+  height: 50vh; /*ed height to fit video and text content with margin */
+  overflow: hidden;
+}
+
+.video-player {
+  width: 100%;
+  height: 100%; /* Adjusted height to fill the video container */
+  object-fit: fill; /* or cover, depending on your preference */
+}
+
+.text-content {
+  margin: 20px;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px; /* Example max-width for buttons */
+}
+
+.navigation-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Example background color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navigation-buttons button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

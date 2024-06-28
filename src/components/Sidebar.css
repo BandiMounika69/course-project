@@ -1,0 +1,41 @@
+/* Sidebar.css */
+.sidebar {
+  width: 300px;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.toggle-button {
+  margin-bottom: 10px;
+}
+
+.section-item,
+.sub-section {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.section-item.active,
+.sub-section.active-sub-section {
+  background-color: #d0e8ff;
+}
+
+.status-icon {
+  margin-right: 10px;
+}
+
+.completed {
+  color: green;
+}
+
+.incomplete {
+  color: red;
+}
+
+/* Add your other styles here */
